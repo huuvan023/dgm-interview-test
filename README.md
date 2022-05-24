@@ -8,7 +8,6 @@ Digime homepage: https://digime.asia
 
 
 # Prerequisites
-<br/>
 
 1. Git: See [git installization guides](https://github.com/git-guides/install-git)
 2. NodeJS: any 12.x version starting with 12.0.0 or greater than ([NodeJS setup guide](https://nodejs.org/en/download/))
@@ -19,7 +18,6 @@ Digime homepage: https://digime.asia
 <br/>
 
 # Getting started
-<br />
 
 ## Project installization
 
@@ -48,5 +46,5 @@ npm run lint
 ```
 
 # Author
-<br/>
+
 Ngo Huu Van
