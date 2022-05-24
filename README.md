@@ -4,8 +4,6 @@ This repo contains the source code Digime interview test cases.
 
 Digime homepage: https://digime.asia
 
-<br />
-
 
 # Prerequisites
 
@@ -15,7 +13,6 @@ Digime homepage: https://digime.asia
 4. VueCLI: Require Vue CLI 4.x version ([Vue CLI installization guide](https://cli.vuejs.org/guide/installation.html))
 5. A clone of this project in your machine
 
-<br/>
 
 # Getting started
 
