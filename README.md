@@ -7,16 +7,16 @@ Digime homepage: https://digime.asia
 
 # Prerequisites
 
-1. Git: See [git installization guides](https://github.com/git-guides/install-git)
+1. Git: See [git installation guides](https://github.com/git-guides/install-git)
 2. NodeJS: any 12.x version starting with 12.0.0 or greater than ([NodeJS setup guide](https://nodejs.org/en/download/))
 3. NPM: Require npm version 5.x or greater
-4. VueCLI: Require Vue CLI 4.x version ([Vue CLI installization guide](https://cli.vuejs.org/guide/installation.html))
+4. VueCLI: Require Vue CLI 4.x version ([Vue CLI installation guide](https://cli.vuejs.org/guide/installation.html))
 5. A clone of this project in your machine
 
 
 # Getting started
 
-## Project installization
+## Project installation
 
 ### Install all related packages by run this command
 
