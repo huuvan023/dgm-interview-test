@@ -28,7 +28,7 @@ Packages were installed successfully if the terminal is showing:
 ![](docs/images/install-completed.png)
 
 ### Requirements
-Task 1: Dựa vào file .json cho trước, hãy display dữ liệu trong file json vào page TableData (dòng đầu tiên trong bảng cho trước là output sample)
+Task 1: Dựa vào file .json cho trước (src/assets/customer.json), hãy display dữ liệu trong file json vào page TableData (dòng đầu tiên trong bảng cho trước là output sample)
 
 Task 2: Dựa vào api url (file .env). Yêu cầu hãy fetch api cho trước, lấy dữ liệu và display dữ liệu đó dưới dạng marker trong page MapPage. Enable feature mỗi lần click vào marker sẽ hiện lên data của marker đó 
 
