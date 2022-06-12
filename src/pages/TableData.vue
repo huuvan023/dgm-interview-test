@@ -1,25 +1,34 @@
 <template>
   <div class="hello">
     <table id="customers">
-      <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-        <th>Quick contact</th>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-        <td>Contact with <strong>Maria Anders</strong> at <strong>Alfreds Futterkiste</strong> company in <strong>Germany</strong></td>
-      </tr>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+          <th>Quick contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="info in user" :key="info.company">
+          <td>{{info.company}}</td>
+          <td>{{info.contact}}</td>
+          <td>{{info.country}}</td>
+          <td>Contact with <strong>{{info.contact}}</strong> at <strong>{{info.company}}</strong> company in <strong>{{info.country}}</strong></td>
+        </tr>
+      </tbody> 
     </table>
   </div>
 </template>
 
 <script>
+import userData from "../assets/customer.json"
 export default {
-  name: 'HelloWorld',
+  data(){
+    return {
+      user: userData.data,
+    }
+  }
 }
 </script>
 
